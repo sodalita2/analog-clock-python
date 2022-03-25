@@ -17,9 +17,7 @@ class TestClock(unittest.TestCase):
         resultado = Clock.polar2cartesian(11.6064395258,200.8)
         self.assertEqual(resultado,(-164.48573048888642,115.17414842549269))
 
-    ## Nao sei como testar as outras funcoes, ja que elas nao possuem um return claro, na construcao
-    ## eu fiz debug e testei os valores que passavam na draw_handle porem nao sei se era isso que deveria ter
-    ## sido feito no unittest ja que nao possui um return
+
 
 if __name__ == '__main__':
     Main = Tk()

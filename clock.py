@@ -5,8 +5,6 @@ import os
 import json
 from tkinter import *
 
-# Nao sei fazer relogio dinamico resize, porem quando muda o valor de height e width na declaracao do Canvas,
-# ele se ajusta automatico, porem nao sei porque, nao aceita valores maiores que 1000 para height and width.
 
 #  @author Gabriel Bittencourt de Souza Pinto
 
